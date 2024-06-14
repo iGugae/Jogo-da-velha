@@ -26,7 +26,7 @@ int main (){
         }
 
         printf("Vez do jogador '%c'!\n",jogador);
-        if (jogador % 2 == 1){
+        if (jogador == 'X'){
             do{
                 printf("Digite a linha que deseja (1 a 3): ");
                 scanf("%d",&linha);
